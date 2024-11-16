@@ -1,0 +1,153 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #2c3e50;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+/* Secciones generales */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Presentación en Home */
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#home img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Sobre Mí */
+#about h2 {
+    font-size: 2em;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #34495e;
+}
+
+/* Skills */
+#skills h2 {
+    font-size: 2em;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+#skills li {
+    font-size: 1.3em;
+    color: #2c3e50;
+}
+
+/* Contacto */
+#contact h2 {
+    font-size: 2em;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.social-links a .fa-whatsapp {
+    color: #25D366; 
+}
+
+.social-links a .fa-whatsapp:hover {
+    color: #128C7E; 
+}
+
+
+
+
+
+
+.social-links a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+}
